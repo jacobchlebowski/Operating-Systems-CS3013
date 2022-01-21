@@ -1,0 +1,54 @@
+1) The root directory is the highest directory in the heierarchy, which contains all files on a system
+-  "cd" is the command to change the current working directory to the root directory
+
+2) touch foo.txt
+
+3) mv foo.txt bar.txt
+
+4)  whereis ls
+    OUTPUT: ls: /usr/bin/ls /usr/share/man/man1/ls.1.gz
+
+5) Input:  whoami
+   Output: cs2011
+   
+   
+6)  Shell environment variables are variables that are made for every process in the shell
+  command: "printenv"
+
+
+
+7) Input:  echo $0
+   Output:  bash
+
+
+8)  Input:  uname -r
+    Output: 5.11.0-41-generic
+    
+ 
+9) Input: ls /bin/ | grep ^ch
+   Output: 
+	chacl
+	chage
+	chardet3
+	chardetect3
+	chattr
+	chcon
+	check-language-support
+	chfn
+	chgrp
+	chmod
+	choom
+	chown
+	chrt
+	chsh
+	chvt
+	
+	
+10)  Input:  ls -a ~ | wc -l
+     Output: 34
+
+
+
+11) grep -rl "int i"
+
+
